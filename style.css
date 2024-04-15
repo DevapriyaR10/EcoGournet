@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Lora", serif;
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a, 
+.btn{
+transition: all 300ms ease;
+}
+
+nav, .nav-links, .pro-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    background-color: rgb(0, 124, 33);
+}
+
+.nav-links, .pro-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.right{
+    margin-left: 5px;
+    margin-right: 10%;
+}
+
+.left{
+    margin-left: 10%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.logo{
+    font-size: 3rem;
+    display: flex;
+    margin-left: 5%;
+    color:white;
+    font-family: "Lora", serif;
+    font-size: 70px;
+    margin-bottom: 1%;
+}
+
+.logo a:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.l1{
+    font-size: 3rem;
+    color: black;
+}
+
+#hamburger-nav{
+    display:none;
+}
+
+.hamburger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icon span{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(9, 9, 9);
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgb(121, 220, 50);
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links li{
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height:max-content;
+}
+
+.hamburger-icon.open span:first-child{
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger-icon.open span:last-child{
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child{
+    transform: none;
+}
+
+.hamburger-icon span:first-child{
+    opacity: 1;
+}
+
+.hamburger-icon span:first-child{
+    transform: none;
+}
+
+
+#container-1{
+    background-image: url("alexander-grey-LrfEWoFq6S8-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+main
+{
+    background-color: black;
+}
+.s-1{
+    text-align: left;
+    position: absolute;
+    margin-top: 15%;
+    left: 2%;
+    margin-bottom: 22%;
+    width: 46%;
+    border: 1.5px solid rgb(238, 235, 235);
+    padding: 20px;
+    padding-bottom: 30px;
+    box-sizing: border-box; 
+}
+.p-1{
+    font-size: 2em; 
+    font-weight: 400; 
+    margin-bottom: 10px;
+    font-family: "Lora", serif;
+    color:rgb(240, 238, 238);
+}
+
+.p-2{
+    font-size: 1em; 
+    font-weight: 300; 
+    margin-bottom: 5px;
+    font-family: "Lora", serif;
+    color:rgb(240, 238, 238);
+}
+
+#aboutus{
+    padding-top: 100px;
+}
+.container-2{
+    background-color:  rgb(0, 0, 0);
+    background-image: url("photo-1623428187969-5da2dcea5ebf.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+
+.p-3{
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    font-family: "Lora", serif;
+    font-size: 4em;
+    font-weight: 500;
+    margin-top: 15px;
+    color: white;
+}
+
+.p-4{
+    font-size: 2em; 
+    font-weight: 400; 
+    margin-bottom: 5px;
+    font-family: "Lora", serif;
+    color:rgb(240, 238, 238);
+    padding: 10px;
+    gap: 1em;
+}
+
+.p-5{
+    padding: 10px;
+    font-size: 1.3em; 
+    font-weight: 200; 
+    margin-bottom: 5px;
+    font-family: "Lora", serif;
+    color:rgb(240, 238, 238);
+    gap: 1.5em;
+}
+
+.d-1{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 50%;
+    margin-bottom: 20px;
+}
+
+.p-6{
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    padding-bottom: 5px;
+    gap: 1.5rem;
+}
+
+.p-7{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 5px;
+    gap: 1.5rem;
+}
+
+.d-2{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 0 2% 30px;
+    padding: 20px;
+    padding-bottom: 20px;
+    box-shadow: 4px rgba(238, 238, 238, 0.484);
+    text-align: left;
+    vertical-align: top;
+    border: solid white 1px;
+    height: 130px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.container-4{
+    padding: 30px 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.f{
+    text-align: center;
+}
+
+#features{
+    background-image: url("miti-qYreP9QOdrk-unsplash.jpg");
+    background-size: "cover";
+    padding-top: 100px;
+
+}
+
+.p{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.pr{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    margin-left: 20px;
+    
+}
+
+.pr1{
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.btn{
+    margin-left: 40px;
+}
+
+.d-3, .d-4{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 30%;
+    height:330px;
+    margin: 10px 2% 20px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    vertical-align: top;
+    border: solid white 1px;
+    background-color: rgba(63, 63, 62, 0.5);
+    color: white;
+    box-shadow: 0 0 600px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.d-3:hover, .d-4:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.pr2{
+    padding: 20px;
+}
+
+.pr3{
+    padding-right: 20px;
+}
+
+.content-1{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: justify;
+}
+
+.p-10{
+    font-size: 2em; 
+    font-weight: 400; 
+    margin-bottom: 5px;
+    font-family: "Lora", serif;
+    color:rgb(240, 238, 238);
+    gap: 1.5em;
+}
+
+.p-9{
+    font-size: 16px;
+    word-spacing: 5px;
+}
+
+.u{
+    font-size: 17px;
+}
+
+.p-8{
+    padding-top: 5px;
+    font-size: small;
+}
+
+#pricing{
+    background-image: url("jodie-morgan-v25z8P-CPB4-unsplash.jpg");
+    background-size: cover;
+    padding-top: 100px;
+}
+
+

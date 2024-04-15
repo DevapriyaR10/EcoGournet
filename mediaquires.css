@@ -1,0 +1,280 @@
+/* Larger screens (max-width: 1200px) */
+@media screen and (max-width:1280px){
+
+     .p-9{
+          font-size: 19px;
+     }
+
+    .d-2{
+        width: 50%;
+        height: fit-content;
+    }
+    .p-2, .p-7, .pr3, .pr4, p{
+        font-size: 20px;
+    }
+
+    .p-8{
+        font-size: 15px;
+    }
+
+    .left{
+        margin-left: 0;
+    }
+    #aboutus .container-2,
+    #features,
+    #pricing {
+        height: auto;
+    }
+
+    .d-4, .d-3{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .container-1{
+        margin-top:10px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #aboutus,
+    #features,
+    #pricing {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #aboutus .container-2,
+    #features,
+    #pricing {
+        height: auto;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .d-1 {
+        margin: 0;
+        width: 100%; 
+    }
+
+    .s-1{
+        margin-top: 25%;
+        width: fit-content;
+    }
+
+    #features{
+        background-color: black;
+    }
+    .d-2{
+        width: 90%;
+        background-color: black;
+    }
+
+    .content-1{
+        margin:10px;
+        padding: 10px;
+        font-size: medium;
+    }
+
+    .p-9{
+        word-spacing: 2px;
+    }
+
+    .d-3{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .d-4{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    footer {
+        padding-top: 20px;
+        padding: 20px; 
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column; 
+        align-items: center;
+        gap: 2em;
+    }
+
+    .contact-info,
+    .resources,
+    .help,
+    .consumer-policy {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .social-media {
+        margin-top: 1em;
+        line-height: 2em;
+    }
+
+    .li{
+        list-style: none;
+    }
+
+    .container-4{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-2, .p-7, .pr3, .pr4, p{
+        font-size: 18px;
+    }
+
+    .p-8{
+        font-size: 15px;
+    }
+}
+
+
+/* Smaller screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    
+    body {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    section {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+
+    #aboutus,
+    #features,
+    #pricing {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #aboutus .container-2,
+    #features,
+    #pricing {
+        height: auto;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .d-1 {
+        margin: 0;
+        width: 100%; 
+    }
+
+    .s-1{
+        margin-top: 25%;
+        width:fit-content
+    }
+
+    #features{
+        background-color: black;
+    }
+    .d-2{
+        width: fit-content;
+        background-color: black;
+    }
+
+    .content-1{
+        margin:10px;
+        padding: 10px;
+        font-size: small;
+    }
+
+    .p-9{
+        word-spacing: 2px;
+    }
+
+    .d-3{
+        width: fit-content;
+    }
+
+    .d-4{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    footer {
+        padding: 20px; /* Adjust the padding as needed */
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        gap: 2em;
+    }
+
+    .contact-info{
+            margin: 0;
+            text-align: center;
+            width: 100%;
+    }
+    .resources,
+    .help,
+    .consumer-policy {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .social-media {
+        margin-top: 1em;
+        line-height: 2em;
+    }
+
+    .li{
+        list-style: none;
+    }
+
+    #home{
+        padding-top: 235px;
+    }
+
+    .s-1{
+        margin-top: 45px;
+    }
+}

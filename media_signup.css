@@ -1,0 +1,132 @@
+@media only screen and (max-width: 600px) {
+    
+    #hamburger-nav{
+        display: flex;
+    }
+    .container {
+        width: 90%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+   .main{
+    align-items: center;
+    margin: 0;
+   }
+    .next {
+        margin-left: 45%;
+    }
+   .l1{
+    font-size: 30px;
+   }
+
+   body{
+    overflow-x: hidden;
+    width: 100%;
+    color: white;
+   }
+
+   .s1, .s2{
+    padding: auto;
+    margin: auto;
+   }
+
+   .n1{
+    margin: 20px;
+    font-size: 14px;
+   }
+
+   .label-agree-term{
+    margin-left: 0;
+    font-size: 15px;
+   }
+
+   .s-3{
+    margin:20px;
+   }
+
+   #username, #recovery_question, #recovery_answer{
+    width: 75%;
+   }
+
+   .next{
+    margin: 70%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+   .main{
+    align-items: center;
+    margin-top: 10%;
+   }
+   
+   .next{
+    margin: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   }
+
+   .signup-form{
+    padding-left: 9%;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .l1{
+        font-size: 40px;
+    }
+    #username, #recovery_question, #recovery_answer{
+        width: 63%;
+        margin-left: 25px;
+       }
+
+    .username, .recovery_question, .recovery_answer{
+        margin-left: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    #username, #recovery_question, #recovery_answer{
+        width: 75%;
+        margin-left: 0;
+       }
+
+    .username, .recovery_question, .recovery_answer{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+
+    .s-2{
+         margin: 0;
+    }
+
+    #username, #recovery_question, #recovery_answer{
+        width: 90%;
+        margin-left: 15px;
+       }
+
+    .username, .recovery_question, .recovery_answer{
+        margin-left: 15px;
+    }
+
+    .l1{
+        font-size: 35px;
+    }
+}

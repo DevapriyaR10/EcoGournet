@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup_css.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="l1"><a href="index.html">EcoGournet</a></div> 
+        <div class="hamburger-menu">   
+            <div class="hamburger-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>  
+                </div>
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="signup.html" onclick="togglemenu()">Sign In</a></li>
+                        <li><a href="#login.html" onclick="togglemenu()">Log In</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>  
+    </nav>
+  <div class="container">
+    <h1>Sign In</h1>
+    <p class="p-1">Discover Exquisitely Sustainable Solutions.</p>
+    <form id="regForm" action="/action_page.php" method="POST">
+      <div class="tab">
+        <div class="d1">
+        <p class="p-2">First Name:</p>
+        <p><input oninput="this.className = ''" name="first_name"></p>
+        </div>
+         <div class="d2">
+         <p class="p-2">Last Name:</p>
+        <p><input oninput="this.className = ''" name="last_name"></p>
+        </div>
+      </div>
+      <div class="tab">
+        <div class="d1">
+        <p class="p-2">Email:</p>
+        <p><input oninput="this.className = ''" name="email" type="email"></p>
+        </div>
+        <div class="d2">
+        <p class="p-2">Mobile Number:</p> 
+        <p><input oninput="this.className = ''" name="mobile_number"></p>
+      </div>
+      </div>
+      <div class="tab" id="s1">
+        <div class="d1">
+        <p class="p-2">Username:</p>
+        <p><input oninput="this.className = ''" name="username"></p>
+        </div>
+        <div class="d1">
+        <p class="p-2">Password:</p>
+        <div class="d3">
+        <p><input class="p1" placeholder="Password" oninput="this.className = ''" name="password" type="password"></p>
+        <p><input class="p2" placeholder="Confirm Password" oninput="this.className = ''" name="confirm_password" type="password"></p>
+      </div>
+      </div>
+      <a class="PR" onclick="showAlert()">Password Rules</a>
+      </div>
+      <div class="tab" id="s1">
+        <p class="p-2">Recovery Question:</p>
+        <p><input type="text" id="recovery_question" name="recovery_question"></p>
+        <p class="p-2">Recovery Answer:</p>
+        <p><input type="text" id="recovery_answer" name="recovery_answer"></p>
+        <div class="s-2 s-3">
+          <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+          <label for="agree-term" class="label-agree-term">I agree to all statements in <a href="terms-of-service.html" class="term-service">Terms of Service</a></label>
+        </div>
+      </div>
+      <div class="n1">
+        <p class="loginhere">
+            Have already an account? <a href="login.html" class="loginhere-link">Login here</a>
+        </p>
+      </div>
+        <div class="d5">
+          <a class="button1" id="prevBtn" onclick="nextPrev(-1)">Previous</a>
+          <a class="button2" id="nextBtn" onclick="nextPrev(1)">Next</a>
+        </div>
+        <div style="text-align:center;margin-top:40px;">
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+        </div>
+    </form>
+  </div>
+  <footer id="footer"></footer>
+  <script src="script_signup.js"></script>
+</body>
+</html>
